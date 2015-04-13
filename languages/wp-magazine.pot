@@ -1,0 +1,138 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: wp-magazine 0.0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-04-13 09:52+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: includes/wp-magazine-actions-filters.php:56
+msgid "All"
+msgstr ""
+
+#: includes/wp-magazine-functions.php:25
+msgid "Issue navigation"
+msgstr ""
+
+#: includes/wp-magazine-post-type.php:22
+msgid "Magazine Articles"
+msgstr ""
+
+#: includes/wp-magazine-post-type.php:23 includes/wp-magazine-post-type.php:25
+msgid "Magazine Article"
+msgstr ""
+
+#: includes/wp-magazine-post-type.php:26
+msgid "Parent Magazine Article"
+msgstr ""
+
+#: includes/wp-magazine-post-type.php:27
+msgid "All Magazine Articles"
+msgstr ""
+
+#: includes/wp-magazine-post-type.php:28
+msgid "Add New Magazine Article"
+msgstr ""
+
+#: includes/wp-magazine-post-type.php:29
+msgid "Add New"
+msgstr ""
+
+#: includes/wp-magazine-post-type.php:30
+msgid "New Magazine Article"
+msgstr ""
+
+#: includes/wp-magazine-post-type.php:31
+msgid "Edit Magazine Article"
+msgstr ""
+
+#: includes/wp-magazine-post-type.php:32
+msgid "Update Magazine Article"
+msgstr ""
+
+#: includes/wp-magazine-post-type.php:33
+msgid "View Magazine Article"
+msgstr ""
+
+#: includes/wp-magazine-post-type.php:34
+msgid "Search Magazine Article"
+msgstr ""
+
+#: includes/wp-magazine-post-type.php:35
+msgid "Not found"
+msgstr ""
+
+#: includes/wp-magazine-post-type.php:36
+msgid "Not found in trash"
+msgstr ""
+
+#: includes/wp-magazine-taxonomy.php:21 includes/wp-magazine-taxonomy.php:23
+msgid "Issues"
+msgstr ""
+
+#: includes/wp-magazine-taxonomy.php:22
+msgid "Issue"
+msgstr ""
+
+#: includes/wp-magazine-taxonomy.php:24
+msgid "All Issues"
+msgstr ""
+
+#: includes/wp-magazine-taxonomy.php:25
+msgid "Parent Issue"
+msgstr ""
+
+#: includes/wp-magazine-taxonomy.php:26
+msgid "Parent Issue:"
+msgstr ""
+
+#: includes/wp-magazine-taxonomy.php:27 includes/wp-magazine-taxonomy.php:28
+msgid "Add new Issue"
+msgstr ""
+
+#: includes/wp-magazine-taxonomy.php:29
+msgid "Edit Issue"
+msgstr ""
+
+#: includes/wp-magazine-taxonomy.php:30
+msgid "Update Issue"
+msgstr ""
+
+#: includes/wp-magazine-taxonomy.php:31
+msgid "Show Issue"
+msgstr ""
+
+#: includes/wp-magazine-taxonomy.php:32
+msgid "Separate Issues with commas"
+msgstr ""
+
+#: includes/wp-magazine-taxonomy.php:33
+msgid "Add or remove Issues"
+msgstr ""
+
+#: includes/wp-magazine-taxonomy.php:34
+msgid "Choose from the most used"
+msgstr ""
+
+#: includes/wp-magazine-taxonomy.php:35
+msgid "Popular Issues"
+msgstr ""
+
+#: includes/wp-magazine-taxonomy.php:36
+msgid "Search Issues"
+msgstr ""
+
+#: includes/wp-magazine-taxonomy.php:37
+msgid "Not Found"
+msgstr ""

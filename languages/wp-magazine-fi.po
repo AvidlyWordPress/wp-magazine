@@ -1,0 +1,139 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: wp-magazine 0.0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-04-13 09:52+0300\n"
+"PO-Revision-Date: 2015-04-13 09:55+0200\n"
+"Last-Translator: Tomi Mäenpää <tomimaen@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.1\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: fi\n"
+
+#: includes/wp-magazine-actions-filters.php:56
+msgid "All"
+msgstr "Kaikki"
+
+#: includes/wp-magazine-functions.php:25
+msgid "Issue navigation"
+msgstr "Numeron navigointi"
+
+#: includes/wp-magazine-post-type.php:22
+msgid "Magazine Articles"
+msgstr "Lehtiartikkelit"
+
+#: includes/wp-magazine-post-type.php:23 includes/wp-magazine-post-type.php:25
+msgid "Magazine Article"
+msgstr "Lehtiartikkeli"
+
+#: includes/wp-magazine-post-type.php:26
+msgid "Parent Magazine Article"
+msgstr "Ylempi lehtiartikkeli"
+
+#: includes/wp-magazine-post-type.php:27
+msgid "All Magazine Articles"
+msgstr "Kaikki lehtiartikkelit"
+
+#: includes/wp-magazine-post-type.php:28
+msgid "Add New Magazine Article"
+msgstr "Lisää uusi lehtiartikkeli"
+
+#: includes/wp-magazine-post-type.php:29
+msgid "Add New"
+msgstr "Lisää uusi"
+
+#: includes/wp-magazine-post-type.php:30
+msgid "New Magazine Article"
+msgstr "Uusi lehtiartikkeli"
+
+#: includes/wp-magazine-post-type.php:31
+msgid "Edit Magazine Article"
+msgstr "Muokkaa lehtiartikkelia"
+
+#: includes/wp-magazine-post-type.php:32
+msgid "Update Magazine Article"
+msgstr "Päivitä lehtiartikkeli"
+
+#: includes/wp-magazine-post-type.php:33
+msgid "View Magazine Article"
+msgstr "Näytä lehtiartikkeli"
+
+#: includes/wp-magazine-post-type.php:34
+msgid "Search Magazine Article"
+msgstr "Etsi lehtiartikkelia"
+
+#: includes/wp-magazine-post-type.php:35
+msgid "Not found"
+msgstr "Ei löytynyt"
+
+#: includes/wp-magazine-post-type.php:36
+msgid "Not found in trash"
+msgstr "Ei löytynyt roskakorista"
+
+#: includes/wp-magazine-taxonomy.php:21 includes/wp-magazine-taxonomy.php:23
+msgid "Issues"
+msgstr "Numerot"
+
+#: includes/wp-magazine-taxonomy.php:22
+msgid "Issue"
+msgstr "Numero"
+
+#: includes/wp-magazine-taxonomy.php:24
+msgid "All Issues"
+msgstr "Kaikki numerot"
+
+#: includes/wp-magazine-taxonomy.php:25
+msgid "Parent Issue"
+msgstr "Ylempi numero"
+
+#: includes/wp-magazine-taxonomy.php:26
+msgid "Parent Issue:"
+msgstr "Ylempi numero:"
+
+#: includes/wp-magazine-taxonomy.php:27 includes/wp-magazine-taxonomy.php:28
+msgid "Add new Issue"
+msgstr "Lisää uusi numero"
+
+#: includes/wp-magazine-taxonomy.php:29
+msgid "Edit Issue"
+msgstr "Muokkaa numeroa"
+
+#: includes/wp-magazine-taxonomy.php:30
+msgid "Update Issue"
+msgstr "Päivitä numero"
+
+#: includes/wp-magazine-taxonomy.php:31
+msgid "Show Issue"
+msgstr "Näytä numero"
+
+#: includes/wp-magazine-taxonomy.php:32
+msgid "Separate Issues with commas"
+msgstr "Erota numerot pilkuilla"
+
+#: includes/wp-magazine-taxonomy.php:33
+msgid "Add or remove Issues"
+msgstr "Lisää tai poista numeroita"
+
+#: includes/wp-magazine-taxonomy.php:34
+msgid "Choose from the most used"
+msgstr "Valitse käytetyimmistä"
+
+#: includes/wp-magazine-taxonomy.php:35
+msgid "Popular Issues"
+msgstr "Suosituimmat numerot"
+
+#: includes/wp-magazine-taxonomy.php:36
+msgid "Search Issues"
+msgstr "Etsi numeroita"
+
+#: includes/wp-magazine-taxonomy.php:37
+msgid "Not Found"
+msgstr "Ei lötynyt"
