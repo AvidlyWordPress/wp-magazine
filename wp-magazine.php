@@ -3,7 +3,7 @@
  * Plugin Name: WordPress Magazine
  * Plugin URI: https://github.com/H1FI/wp-magazine
  * Description: Template for WordPress magazines.
- * Version: 0.1
+ * Version: 1.0.1
  * Author: Tomi Mäenpää / H1
  * Author URI: https://h1.fi
  * License: GPL2
