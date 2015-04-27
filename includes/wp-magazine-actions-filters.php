@@ -22,7 +22,10 @@ if ( ! function_exists( 'wpm_modify_issue_slug' ) ) {
 			$parent_term = get_term_by( 'id', $term->parent, 'wpm_issue' );
 
 			if ( is_numeric( $term->name ) && is_numeric( $parent_term->name ) ) {
-				$new_slug = $term->name . '-' . $parent_term->name;
+				// Pad single-digit numbers with leading zero
+				$num_padded = sprintf( "%02d", $term->name );
+
+				$new_slug = $parent_term->name . '-' .  $num_padded;
 
 				wp_update_term( $term->term_id, 'wpm_issue', array( 'slug' => $new_slug ) );
 			}
