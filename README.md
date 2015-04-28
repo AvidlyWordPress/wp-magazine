@@ -27,4 +27,4 @@ If using pretty permalinks (which you should use), the URL's will be formed as f
 | /new-magazine-name/              | (Main) Issue Archive      |
 | /new-magazine-name/article-name/ | (Single) Magazine Article |
 | /new-magazine-name/2015/         | (Year) Issue Archive      |
-| /new-magazine-name/1-2015/       | (Number) Issue Archive    |
+| /new-magazine-name/2015-01/       | (Number) Issue Archive    |
