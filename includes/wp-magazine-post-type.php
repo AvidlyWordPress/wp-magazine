@@ -40,7 +40,7 @@ if ( ! function_exists( 'wpm_create_article' ) ) {
 			'label'               => null,
 			'description'         => null,
 			'labels'              => $labels,
-			'supports'            => array( 'title', 'editor', 'excerpt', 'author', 'thumbnail', 'comments', 'revisions', ),
+			'supports'            => array( 'title', 'editor', 'excerpt', 'author', 'thumbnail', 'comments', 'revisions', 'page-attributes'),
 			'taxonomies'          => array(),
 			'hierarchical'        => false,
 			'public'              => true,
