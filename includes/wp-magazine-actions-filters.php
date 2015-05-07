@@ -70,7 +70,7 @@ if ( ! function_exists( 'wpm_restrict_articles_with_issues' ) ) {
 	}
 }
 
-add_filter( 'pre_get_posts', 'wpm_show_articles_by_issue' );
+add_action( 'pre_get_posts', 'wpm_show_articles_by_issue' );
 if ( ! function_exists( 'wpm_show_articles_by_issue' ) ) {
 	/**
 	 * Magazine article filtering.
@@ -92,7 +92,5 @@ if ( ! function_exists( 'wpm_show_articles_by_issue' ) ) {
 				$query->set( $taxonomy, $term->slug );
 			}
 		}
-
-		return $query;
 	}
 }
