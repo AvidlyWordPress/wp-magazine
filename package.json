@@ -1,6 +1,6 @@
 {
   "name": "wp-magazine",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "",
   "devDependencies": {
     "grunt": "^0.4.5",
