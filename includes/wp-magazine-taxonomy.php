@@ -11,12 +11,6 @@ if ( ! function_exists( 'wpm_create_issue' ) ) {
 	 */
 	function wpm_create_issue() {
 
-		$issue_args = array(
-			'slug' => 'magazine-name',
-		);
-
-		$issue_args = apply_filters( 'wpm_filters_issue_args', $issue_args );
-
 		$labels = array(
 			'name'                       => _x( 'Issues', 'Taxonomy General Name', 'wp-magazine' ),
 			'singular_name'              => _x( 'Issue', 'Taxonomy Singular Name', 'wp-magazine' ),
@@ -45,10 +39,10 @@ if ( ! function_exists( 'wpm_create_issue' ) ) {
 			'show_admin_column'          => true,
 			'show_in_nav_menus'          => true,
 			'show_tagcloud'              => true,
-			'rewrite'                    => array( 'slug' => $issue_args['slug'] ),
+			'rewrite'                    => array( 'slug' => _x( 'issue', 'issue taxonomy slug', 'wp-magazine' ) ),
 		);
 
-		register_taxonomy( 'wpm_issue', array( 'wpm_article' ), $args );
+		register_taxonomy( 'wpm_issue', apply_filters( 'wpm_issue_post_types', array( 'wpm_article' ) ), apply_filters( 'wpm_issue_args', $issue_args ) );
 
 	}
 }
