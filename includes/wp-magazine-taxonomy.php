@@ -32,7 +32,7 @@ if ( ! function_exists( 'wpm_create_issue' ) ) {
 		);
 
 		$args = array(
-			'labels'                     => $labels,
+			'labels'                     => apply_filters( 'wpm_issue_labels', $labels ),
 			'hierarchical'               => true,
 			'public'                     => true,
 			'show_ui'                    => true,
