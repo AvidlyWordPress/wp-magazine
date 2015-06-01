@@ -11,17 +11,10 @@ if ( ! function_exists( 'wpm_create_article' ) ) {
 	 */
 	function wpm_create_article() {
 
-		$article_args = array(
-			'name' => 'Magazine Name',
-			'slug' => 'magazine-name/article',
-		);
-
-		$article_args = apply_filters( 'wpm_filters_article_args', $article_args );
-
 		$labels = array(
 			'name'                => _x( 'Magazine Articles', 'Post Type General Name', 'wp-magazine' ),
 			'singular_name'       => _x( 'Magazine Article', 'Post Type Singular Name', 'wp-magazine' ),
-			'menu_name'           => $article_args['name'],
+			'menu_name'           => __( 'Magazine', 'wp-magazine' ),
 			'name_admin_bar'      => __( 'Magazine Article', 'wp-magazine' ),
 			'parent_item_colon'   => __( 'Parent Magazine Article', 'wp-magazine' ),
 			'all_items'           => __( 'All Magazine Articles', 'wp-magazine' ),
@@ -39,7 +32,7 @@ if ( ! function_exists( 'wpm_create_article' ) ) {
 		$args = array(
 			'label'               => null,
 			'description'         => null,
-			'labels'              => $labels,
+			'labels'              => apply_filters( 'wpm_article_labels', $labels ),
 			'supports'            => array( 'title', 'editor', 'excerpt', 'author', 'thumbnail', 'comments', 'revisions', 'page-attributes'),
 			'taxonomies'          => array(),
 			'hierarchical'        => false,
@@ -55,10 +48,10 @@ if ( ! function_exists( 'wpm_create_article' ) ) {
 			'exclude_from_search' => false,
 			'publicly_queryable'  => true,
 			'capability_type'     => 'post',
-			'rewrite'             => array( 'slug' => $article_args['slug'] ),
+			'rewrite'             => array( 'slug' => _x( 'article', 'post type slug', 'wp-magazine' ) ),
 		);
 
-		register_post_type( 'wpm_article', $args );
+		register_post_type( 'wpm_article', apply_filters( 'wpm_article_args', $args ) );
 
 	}
 }
