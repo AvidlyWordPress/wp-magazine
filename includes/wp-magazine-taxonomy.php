@@ -42,7 +42,7 @@ if ( ! function_exists( 'wpm_create_issue' ) ) {
 			'rewrite'                    => array( 'slug' => _x( 'issue', 'issue taxonomy slug', 'wp-magazine' ) ),
 		);
 
-		register_taxonomy( 'wpm_issue', apply_filters( 'wpm_issue_post_types', array( 'wpm_article' ) ), apply_filters( 'wpm_issue_args', $issue_args ) );
+		register_taxonomy( 'wpm_issue', apply_filters( 'wpm_issue_post_types', array( 'wpm_article' ) ), apply_filters( 'wpm_issue_args', $args ) );
 
 	}
 }
