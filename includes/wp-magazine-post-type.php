@@ -49,6 +49,7 @@ if ( ! function_exists( 'wpm_create_article' ) ) {
 			'publicly_queryable'  => true,
 			'capability_type'     => 'post',
 			'rewrite'             => array( 'slug' => _x( 'article', 'post type slug', 'wp-magazine' ) ),
+			'show_in_rest'        => true,
 		);
 
 		register_post_type( 'wpm_article', apply_filters( 'wpm_article_args', $args ) );
