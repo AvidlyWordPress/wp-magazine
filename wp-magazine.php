@@ -3,9 +3,9 @@
  * Plugin Name: WordPress Magazine
  * Plugin URI: https://github.com/H1FI/wp-magazine
  * Description: Template for WordPress magazines.
- * Version: 1.0.4
- * Author: Tomi Mäenpää / H1
- * Author URI: https://h1.fi
+ * Version: 1.0.5
+ * Author: Tomi Mäenpää, Daniel Koskinen / Zeeland Family
+ * Author URI: https://wordpress.zeelandfamily.fi
  * License: GPL2
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
  * Domain Path: /languages
@@ -13,6 +13,7 @@
  */
 
 /*  Copyright 2015  Tomi Mäenpää / H1  (email : tomi@h1.fi)
+	Copyright 2017  Daniel Koskinen / Zeeland Family  (email : daniel.koskinen@zeelandfamily.fi)
 
 	This program is free software; you can redistribute it and/or modify
 	it under the terms of the GNU General Public License, version 2, as

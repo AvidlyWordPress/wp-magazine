@@ -1,6 +1,13 @@
 # wp-magazine
 Template for WordPress Magazines.
 
+## Changelog
+
+- 2017-05-12, v 1.0.5: added 'show_in_rest' to Magazine post type.
+- 2015-06-01, v 1.0.4: fixed a typo
+- 2015-05-06, v. 1.0.2: Allow ordering magazine posts
+- 2015-04-27, v. 1.0.1: Pads numbers with leading zero
+
 ## Filters
 
 There are filters to modify the labels and arguments for both the article post type and the issue taxonomy. The recommended naming convention (and filter usage) is this:
